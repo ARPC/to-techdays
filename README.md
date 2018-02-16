@@ -1,4 +1,4 @@
 TechDays
 ========
 
-Tech Day presentation content. Please create a feature branch for your presentation.
+Tech Day presentation content and sample code.
