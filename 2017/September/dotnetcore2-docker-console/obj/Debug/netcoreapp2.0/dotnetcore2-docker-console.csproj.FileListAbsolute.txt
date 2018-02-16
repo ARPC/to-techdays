@@ -1,0 +1,10 @@
+/development/TechDays/dotnet/dotnetcore2-docker-console/bin/Debug/netcoreapp2.0/dotnetcore2-docker-console.deps.json
+/development/TechDays/dotnet/dotnetcore2-docker-console/bin/Debug/netcoreapp2.0/dotnetcore2-docker-console.runtimeconfig.json
+/development/TechDays/dotnet/dotnetcore2-docker-console/bin/Debug/netcoreapp2.0/dotnetcore2-docker-console.runtimeconfig.dev.json
+/development/TechDays/dotnet/dotnetcore2-docker-console/bin/Debug/netcoreapp2.0/dotnetcore2-docker-console.dll
+/development/TechDays/dotnet/dotnetcore2-docker-console/bin/Debug/netcoreapp2.0/dotnetcore2-docker-console.pdb
+/development/TechDays/dotnet/dotnetcore2-docker-console/obj/Debug/netcoreapp2.0/dotnetcore2-docker-console.csproj.CoreCompileInputs.cache
+/development/TechDays/dotnet/dotnetcore2-docker-console/obj/Debug/netcoreapp2.0/dotnetcore2-docker-console.AssemblyInfoInputs.cache
+/development/TechDays/dotnet/dotnetcore2-docker-console/obj/Debug/netcoreapp2.0/dotnetcore2-docker-console.AssemblyInfo.cs
+/development/TechDays/dotnet/dotnetcore2-docker-console/obj/Debug/netcoreapp2.0/dotnetcore2-docker-console.dll
+/development/TechDays/dotnet/dotnetcore2-docker-console/obj/Debug/netcoreapp2.0/dotnetcore2-docker-console.pdb

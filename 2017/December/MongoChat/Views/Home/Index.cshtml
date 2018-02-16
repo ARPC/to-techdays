@@ -1,0 +1,26 @@
+﻿@using MongoChat.Dto
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<p>
+
+<ui class="list-group">
+@foreach (InstantMessage m in ViewData["Messages"] as List<InstantMessage>)
+{
+    <li class="list-group-item">@m.Body
+        <span class="badge">@m.Created</span>
+    </li>
+}
+</ui>
+
+<p>
+<form asp-controller="Home" asp-action="PostMessage">
+    <input type="text" name="message"/>
+    <input type="submit" value="Post"/>
+</form>
+
+<p>
+<div>
+    @ViewData["Status"]
+</div>

@@ -1,0 +1,10 @@
+/development/playground/dotnet/MongoChat/bin/Debug/netcoreapp2.0/MongoChat.deps.json
+/development/playground/dotnet/MongoChat/bin/Debug/netcoreapp2.0/MongoChat.runtimeconfig.json
+/development/playground/dotnet/MongoChat/bin/Debug/netcoreapp2.0/MongoChat.runtimeconfig.dev.json
+/development/playground/dotnet/MongoChat/bin/Debug/netcoreapp2.0/MongoChat.dll
+/development/playground/dotnet/MongoChat/bin/Debug/netcoreapp2.0/MongoChat.pdb
+/development/playground/dotnet/MongoChat/obj/Debug/netcoreapp2.0/MongoChat.csproj.CoreCompileInputs.cache
+/development/playground/dotnet/MongoChat/obj/Debug/netcoreapp2.0/MongoChat.AssemblyInfoInputs.cache
+/development/playground/dotnet/MongoChat/obj/Debug/netcoreapp2.0/MongoChat.AssemblyInfo.cs
+/development/playground/dotnet/MongoChat/obj/Debug/netcoreapp2.0/MongoChat.dll
+/development/playground/dotnet/MongoChat/obj/Debug/netcoreapp2.0/MongoChat.pdb
