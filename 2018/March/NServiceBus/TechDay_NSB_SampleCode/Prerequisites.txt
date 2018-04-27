@@ -1,0 +1,8 @@
+1. Setup Message Queue / Transport Layer (MSMQ, RabbitMQ, SQLTransport)
+	- the sample uses SqlTransport
+2. Setup Database for Persistence and Transport
+	- the sample uses "SomethingElse" database 
+	- Persistence is setup on the configfile
+
+References:
+https://docs.particular.net/tutorials/intro-to-nservicebus/
