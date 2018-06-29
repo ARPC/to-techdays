@@ -1,0 +1,11 @@
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/bin/Debug/netcoreapp2.0/TennisAwesome.Web.deps.json
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/bin/Debug/netcoreapp2.0/TennisAwesome.Web.runtimeconfig.json
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/bin/Debug/netcoreapp2.0/TennisAwesome.Web.runtimeconfig.dev.json
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/bin/Debug/netcoreapp2.0/TennisAwesome.Web.dll
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/bin/Debug/netcoreapp2.0/TennisAwesome.Web.pdb
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/obj/Debug/netcoreapp2.0/TennisAwesome.Web.csprojResolveAssemblyReference.cache
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/obj/Debug/netcoreapp2.0/TennisAwesome.Web.csproj.CoreCompileInputs.cache
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/obj/Debug/netcoreapp2.0/TennisAwesome.Web.AssemblyInfoInputs.cache
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/obj/Debug/netcoreapp2.0/TennisAwesome.Web.AssemblyInfo.cs
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/obj/Debug/netcoreapp2.0/TennisAwesome.Web.dll
+/Development/to-techdays/TennisAwesome/TennisAwesome.Web/obj/Debug/netcoreapp2.0/TennisAwesome.Web.pdb

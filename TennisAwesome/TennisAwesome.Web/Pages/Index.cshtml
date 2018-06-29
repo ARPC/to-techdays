@@ -1,0 +1,31 @@
+@page
+@using TennisAwesome.Web
+@model IndexPageModel
+
+
+<html>
+    <head>
+        <title>@Model.PageTitle</title>
+    </head>
+    <body>
+        <table>
+            <thead>
+                <th>Date</th>
+                <th>Player</th>
+                <th>Score</th>
+                <th>Player</th>
+            </thead>
+            <tbody>
+                @foreach (MatchSummary match in @Model.MatchSummaries)
+                {
+                    <tr>
+                        <td>@match.MatchDate.ToString("D")</td>
+                        <td>@match.Player1</td>
+                        <td>@match.Score</td>
+                        <td>@match.Player2</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </body>
+</html>
