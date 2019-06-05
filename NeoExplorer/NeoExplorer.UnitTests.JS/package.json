@@ -1,0 +1,20 @@
+{
+ "name": "neo-exporer.unit-tests.js",
+ "version": "0.0.0",
+ "description": "NeoExporer.UnitTests.JS",
+ "main": "app.js",
+ "author": {
+  "name": ""
+ },
+ "devDependencies": {
+  "jasmine": "^3.4.0",
+  "karma": "^4.1.0",
+  "karma-chrome-launcher": "^2.2.0",
+  "karma-firefox-launcher": "^1.1.0",
+  "karma-jasmine": "^2.0.1"
+ },
+ "scripts": {
+  "test": "jasmine",
+  "test-karma": "karma start karma.conf.js --single-run --browsers ChromeHeadless"
+ }
+}
