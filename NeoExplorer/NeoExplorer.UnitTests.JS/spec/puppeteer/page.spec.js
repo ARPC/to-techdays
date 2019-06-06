@@ -39,14 +39,10 @@ describe("Page", function () {
 		});
 
 	async function enterStartAndEndDateAndClickGo(startDate, endDate) {
-		var fromDate = await page.$("#fromDate");
-		await fromDate.type(startDate);
-
-		var toDate = await page.$("#toDate");
-		await toDate.type(endDate);
-
-		var goButton = await page.$('button');
-		await goButton.click();
+		await page.type("#fromDate", startDate);
+		await page.type("#toDate", endDate);
+		await page.click("button");
+		await page.waitFor(100);
 	}
 
 	function startRequestLogging(page) {
