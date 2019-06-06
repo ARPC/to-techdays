@@ -31,14 +31,19 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="package.json" />
+    <Content Include="spec\support\puppeteer.json" />
     <Content Include="spec\support\jasmine.json" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="spec\puppeteer\" />
     <Folder Include="spec\" />
     <Folder Include="spec\support\" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="karma.conf.js" />
+    <Compile Include="spec\puppeteer\page.spec.js">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="spec\playground.spec.js" />
     <Compile Include="spec\squash.spec.js">
       <SubType>Code</SubType>

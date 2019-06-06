@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">\
 	<title>NEO explorer</title>
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="/app.css"/>
 </head>
 <body>
 	<div id="app">
@@ -27,17 +28,20 @@
 				<div class="col-auto"><button type="button" class="btn btn-primary" v-on:click="reloadGrid()">Go</button></div>
 			</div>
 			<p />
-			<table class="table table-sm table-striped">
+			<table class="table table-sm" id="neos">
 				<thead class="thead-light">
 				<th>Name</th>
 				<th>Diameter</th>
 				<th>Potentially Hazardous</th>
 				</thead>
 				<tbody>
-					<tr v-for="neo in near_earth_objects">
+					<tr v-for="neo in near_earth_objects" v-bind:class="{hazardous: neo.is_potentially_hazardous_asteroid}">
 						<td>{{neo.name}}</td>
-						<td>{{neo.estimated_diameter.feet.estimated_diameter_min}} feet</td>
-						<td>{{neo.is_potentially_hazardous_asteroid}}</td>
+						<td>Between {{Math.round(neo.estimated_diameter.feet.estimated_diameter_min)}} and {{Math.round(neo.estimated_diameter.feet.estimated_diameter_max)}} feet</td>
+						<td>
+							<span v-if="neo.is_potentially_hazardous_asteroid">Yes</span>
+							<span v-else>No</span>
+						</td>
 					</tr>
 				</tbody>
 			</table>
