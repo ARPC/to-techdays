@@ -1,0 +1,10 @@
+Bin
+bin
+obj
+_ReSharper*
+*~
+*.user
+*.suo
+*.resharper*
+**/node_modules
+.vs
