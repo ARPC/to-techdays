@@ -5,7 +5,7 @@
 		slowMo: 250
 	};
 
-	it("NASA API is called when Go button is clicked [Promise version]",
+	xit("NASA API is called when Go button is clicked [Promise version]",
 		function (done) {
 			var urls;
 			var puppeteer = require('puppeteer');
