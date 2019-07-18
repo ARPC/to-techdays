@@ -4,7 +4,7 @@
 
 	const debug = {
 		headless: false,
-		slowMo: 200
+		slowMo: 120
 	};
 
 	beforeAll(async function() {
@@ -21,14 +21,14 @@
 		await browser.close();
 	});
 
-	xit("is titled Asteroid Explorer",
+	it("is titled Asteroid Explorer",
 		async function() {
 			await page.goto('http://localhost:5000');
 			expect(await page.title()).toBe("Asteroid Explorer");
 			await page.waitFor(2000);
 		});
 	
-	xit("NASA API is called when Go button is clicked",
+	it("NASA API is called when Go button is clicked",
 		async function() {
 			await page.goto('http://localhost:5000');
 			var urls = startRequestLogging(page);
@@ -39,17 +39,18 @@
 			expect(urls)
 				.toContain(
 					'https://api.nasa.gov/neo/rest/v1/feed?start_date=2019-01-01&end_date=2019-01-07&api_key=5dsCIxdak6Cfd5A3AsBW2jeo2Tic0717tEE7OYVX');
-			await page.waitFor(2000);
+			await page.waitFor(2500);
 		});
 
-	xit("should display readable error when date range exceed 7 days",
+	it("should display readable error when date range exceed 7 days",
 		async function () {
 			await page.goto('http://localhost:5000');
 
 			let message = null;
 			page.once('dialog', async d => {
 				message = d.message();
-				await d.dismiss();
+				await setTimeout(async () => { await d.dismiss(); }, 2500);
+				//await d.dismiss();
 			});
 
 			await page.setRequestInterception(true);
@@ -68,6 +69,7 @@
 			await page.type("#fromDate", "01012010");
 			await page.type("#toDate", "01012015");
 			await page.click("button");
+			await page.waitFor(2500);
 
 			expect(message).toBeTruthy();
 			expect(message).toContain('Javascript is a mistake');
@@ -91,9 +93,7 @@
 			await page.goto('http://localhost:5000');
 			let data = await page.$$eval('table tr td', tds => tds.map(td => { return td.innerText }));
 			expect(data).toEqual(['Big momma', 'Between 100 and 200 feet', 'No', 'Fat daddy', 'Between 500 and 1000 feet', 'No']);
-
-
-			await page.waitFor(500);
+			await page.waitFor(5000);
 		});
 
 
