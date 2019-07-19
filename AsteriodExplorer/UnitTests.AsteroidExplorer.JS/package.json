@@ -7,17 +7,23 @@
   "name": ""
  },
  "devDependencies": {
+  "@vue/test-utils": "^1.0.0-beta.29",
   "jasmine": "^3.4.0",
   "karma": "^4.1.0",
   "karma-chrome-launcher": "^2.2.0",
   "karma-firefox-launcher": "^1.1.0",
   "karma-ie-launcher": "^1.0.0",
   "karma-jasmine": "^2.0.1",
-  "puppeteer": "^1.17.0"
+  "karma-webpack": "^4.0.2",
+  "puppeteer": "^1.17.0",
+  "vue": "^2.6.10",
+  "vue-loader": "^15.7.1",
+  "vue-template-compiler": "^2.6.10",
+  "webpack": "^4.36.1"
  },
-	"scripts": {
-		"test": "jasmine",
-		"karma": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE  --reporters dots",
-		"puppeteer": "jasmine --config=spec/support/puppeteer.json"
-	}
+ "scripts": {
+  "test": "jasmine",
+  "karma": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE  --reporters dots",
+  "puppeteer": "jasmine --config=spec/support/puppeteer.json"
+ }
 }

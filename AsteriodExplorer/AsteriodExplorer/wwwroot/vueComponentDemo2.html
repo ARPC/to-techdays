@@ -1,0 +1,85 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Asteroid Explorer Selector</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+		[v-cloak] {
+			display: none
+		}
+		.really-big-asteroid {
+			background-color: yellow;
+		}
+	</style>
+</head>
+<body>
+	<div id="app" class="container">
+		<h2>Near Earth Objects Selector</h2>
+		<div v-cloak class="card-columns">
+			<asteroid-card v-for="asteroid in asteroids"
+			               :name="asteroid.name"
+			               :estimated-diameter-in-feet="asteroid.estimated_diameter.feet"
+			               :is-potentially-hazardous="asteroid.is_potentially_hazardous_asteroid"
+			               :nasa-url="asteroid.nasa_jpl_url"
+			               :key="asteroid.id">
+			</asteroid-card>
+		</div>
+	</div>
+<script type="text/javascript" src="/lib/jquery/jquery.js"></script>
+<script type="text/javascript" src="/vue/vue.js"></script>
+<script type="text/javascript" src="/helpers.js"></script>
+<script type="text/javascript">
+	var asteroidCard = Vue.component("asteroid-card",
+		{
+			template: `<div class="card">
+				<div class="card-body">
+					<h5 class="card-title" :class="{'really-big-asteroid':isPotentiallyHazardous}">{{name}}</h5>
+					<p class="card-text">Between {{Math.round(estimatedDiameterInFeet.estimated_diameter_min)}} and {{Math.round(estimatedDiameterInFeet.estimated_diameter_max)}} feet</p>
+					<a :href="nasaUrl" class="card-link">More info...</a>
+				</div>
+			</div>`,
+			props: {
+				name: { type: String, required: true },
+				estimatedDiameterInFeet: { type: Object },
+				isPotentiallyHazardous: {type: Boolean},
+				nasaUrl: {type: String}
+			},
+
+		});
+	var vm = new Vue({
+		el: "#app",
+		data: {
+			fromDate: '2019-06-05',
+			toDate: '2019-06-05',
+			asteroids: []
+		},
+		methods: {
+			fetchData: function (startDate, toDate) {
+				var url = 'https://api.nasa.gov/neo/rest/v1/feed';
+				var params = {
+					start_date: startDate,
+					end_date: toDate,
+					api_key: '5dsCIxdak6Cfd5A3AsBW2jeo2Tic0717tEE7OYVX'
+				};
+
+				$.getJSON(url, params)
+					.done(function (json) {
+						console.log(json);
+						vm.asteroids = squash(json.near_earth_objects);
+					}).fail(function (jqxhr, textStatus, error) {
+						console.log(textStatus, error);
+						alert(`Web service call failed with the following error: ${error}.`);
+					});
+			},
+			reloadGrid: function () {
+				this.fetchData(this.fromDate, this.toDate);
+			}
+		},
+		created: function () {
+			this.reloadGrid();
+		}
+	});
+</script>
+</body>
+</html>
