@@ -75,8 +75,9 @@
 						console.log(json);
 						vm.asteroids =  squash(json.near_earth_objects);
 					}).fail(function (jqxhr, textStatus, error) {
-						console.log(textStatus, error);
-						alert(`Web service call failed with the following error: ${error}.`);
+						console.log(jqxhr, textStatus, error);
+						let error_message = jqxhr.responseJSON.error_message;
+						alert(`Web service call failed with the following error: ${error_message}.`);
 					});
 			},
 			reloadGrid: function() {
