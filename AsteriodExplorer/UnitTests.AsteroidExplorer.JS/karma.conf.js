@@ -1,5 +1,6 @@
 // Karma configuration
 // Generated on Fri Jun 07 2019 14:38:36 GMT-0400 (Eastern Daylight Time)
+const VueLoaderPlugin = require("vue-loader/lib/plugin");
 
 module.exports = function(config) {
   config.set({
@@ -25,9 +26,38 @@ module.exports = function(config) {
     ],
 
 
-    // preprocess matching files before serving them to the browser
+	  // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+	    // add webpack as preprocessor
+	    '../AsteriodExplorer/wwwroot/clientApp/**/*.js': ['webpack'],
+	    'spec/**/*[sS]pec.js': ['webpack']
+    },
+    webpack: {
+	    // you don't need to specify the entry option because
+	    // karma watches the test entry points
+	    // webpack watches dependencies
+	    mode: "development",
+	    module: {
+		    rules: [
+			    {
+				    test: /\.vue$/,
+				    loader: "vue-loader"
+				},
+			    { test: /\.css$/, use: ['vue-style-loader', 'css-loader'] }
+		    ]
+	    },
+	    plugins: [
+		    new VueLoaderPlugin()
+	    ]
+	    // ... remainder of webpack configuration (or import)
+    },
+    webpackMiddleware: {
+	    // webpack-dev-middleware configuration
+	    // i.e.
+	    noInfo: true,
+	    // and use stats to turn off verbose output
+	    stats: "errors-only"
     },
 
 
