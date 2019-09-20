@@ -4,12 +4,11 @@ const VueLoaderPlugin = require("vue-loader/lib/plugin");
 
 module.exports = {
 	entry: {
-		'index': "./AsteriodExplorer/wwwroot/clientApp/index.js",
-		'indexSlot': "./AsteriodExplorer/wwwroot/clientApp/indexSlot.js"
+		'index': "./wwwroot/clientApp/index.js"
 	},
 	output: {
 		filename: "[name].build.js",
-		path: path.resolve(__dirname, "AsteriodExplorer/wwwroot/js/dist"),
+		path: path.resolve(__dirname, "wwwroot/js/dist"),
 		libraryTarget: "this"
 	},
 	module: {

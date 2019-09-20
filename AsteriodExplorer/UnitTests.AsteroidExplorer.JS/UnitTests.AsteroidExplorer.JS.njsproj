@@ -44,6 +44,7 @@
     <Compile Include="puppeteer\page.promise.spec.js">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="spec\asteroidCardComponent.spec.js" />
     <Compile Include="spec\app.spec.js">
       <SubType>Code</SubType>
     </Compile>
