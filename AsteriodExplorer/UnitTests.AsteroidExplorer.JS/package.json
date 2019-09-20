@@ -21,9 +21,10 @@
   "vue-template-compiler": "^2.6.10",
   "webpack": "^4.36.1"
  },
- "scripts": {
-  "test": "jasmine",
-  "karma": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE  --reporters dots",
-  "puppeteer": "jasmine --config=spec/support/puppeteer.json"
- }
+	"scripts": {
+		"test": "jasmine",
+		"karma": "karma start karma.conf.js --single-run --browsers Chrome,Firefox,IE  --reporters dots",
+		"test-headless": "karma start karma.conf.js --single-run --browsers ChromeHeadless --reporters dots",
+		"puppeteer": "jasmine --config=spec/support/puppeteer.json"
+	}
 }
