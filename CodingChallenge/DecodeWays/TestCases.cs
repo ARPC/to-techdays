@@ -12,11 +12,11 @@ namespace DecodeWays
     {
         public readonly Program _program = new Program();
 
-        [TestCase("1", 1)]           //  A
-        [TestCase("27", 1)]          //  BG
-        [TestCase("25", 2)]          //  BE, Y
-        [TestCase("2525", 4)]        //  BEBE, YBE, BEY, YY
-        [TestCase("2222", 5)]        //  BBBB, VBB, VV, BVB, VV
+        [TestCase("1", 1)]           //  A or 1
+        [TestCase("27", 1)]          //  BG or 27
+        [TestCase("25", 2)]          //  BE, Y or 25 | 2,5 
+        [TestCase("2525", 4)]        //  BEBE, YBE, BEY, YY or 2,5,2,5 | 25,2,5 | 2,5,25 | 25,25
+        [TestCase("2222", 5)]        //  BBBB, VBB, BVB, BBV, VV or 2,2,2,2 | 22,2,2 | 2,22,2 | 2,2,22 | 22,22
         [TestCase("22722722", 8)]
         [TestCase("1202121210", 8)]
         [TestCase("1302121210", 0)]  //  30 - no way to decode
