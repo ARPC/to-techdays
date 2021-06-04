@@ -1,10 +1,10 @@
 # Good ol' C++
 ## History
-C++ (/ˌsiːˌplʌsˈplʌs/) is a general-purpose, object-oriented programming language developed by Bjarne Stroustrup in 1979.  Initially standardized in 1998, C++ was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library.
+C++ is a general-purpose, object-oriented programming language developed by Bjarne Stroustrup in 1979.  Initially standardized in 1998, C++ was then amended by the C++03, C++11, C++14, and C++17 standards. The current C++20 standard supersedes these with new features and an enlarged standard library.
 
 Bjarne Stroustrup wanted an efficient and flexible language similar to C that also provided high-level features for program organization, and came up with an "extension of the C with classes".
 
-![The one](https://cacm.acm.org/system/assets/0003/7483/061520_Bjarne-Stroustrup.large.jpg)
+![The one](https://i.ytimg.com/vi/69edOm889V4/maxresdefault.jpg)
 
 ## Features
 
@@ -144,14 +144,22 @@ Pointers and arrays are closely related. When an array is passed by-value to a f
 - when an array is passed to a function, it decays to a pointer type
 - the `sizeof` operator when applied to a pointer returns the pointer size, 4 bytes on x86 or 8 bytes on x64
 
-        void func(int arr[], int length) // the same as void func(int *arr, int length)
+        void func(int arr[], int length) // Equivalent to void func(int *arr, int length)
         {
             // returns pointer size. not useful here.
             size_t test = sizeof(arr);
         
+            // Print all elements
             for(int i = 0; i < length; ++i)
             {
-                printf("%i\n", arr[i]);
+                printf("%d\n", arr[i]);
+            }
+
+            // Pointer arithmetic
+            for(int i = 0; i < length; ++i)
+            {
+                printf("%d\n", *arr);
+                arr++;
             }
         }
         
@@ -379,7 +387,64 @@ The managed object is disposed of, using the associated deleter, when either of 
     auto sp4 = sp2;
 
 ### Async programming
+C++11 impelented a large selection of atomic types.
 
+    #include <atomic> 
+
+    std::atomic_int x, y;
+
+A thread `std::thread` represents an executable unit. This executable unit, which the thread immediately starts, gets its work package as a callable unit. A callable unit can be a function, a function object or a lambda function.
+
+    #include <iostream>
+    #include <thread> 
+
+    using namespace std;
+
+    void helloFunction()
+    {
+        cout << "function" << endl;
+    }
+
+    class HelloFunctionObject
+    { 
+    public:
+        void operator()() const
+        {
+            cout << "function object" << endl;
+        } 
+    };
+    
+    int main
+    {
+        HelloFunctionObject helloFunctionObject;
+
+        thread t1(helloFunction);       // function        
+        thread t2(helloFunctionObject); // object
+        thread t3([]{ cout << "lambda function"; }); // lambda
+    }
+   
+The creator can either wait until the thread `t` is done using `t.join()` call or detach itself from the thread using `t.detach()`. If neither is called the thread object will throw a `std::terminate` exception upon destruction.
+
+    #include <thread> 
+    int main()
+    {
+        HelloFunctionObject helloFunctionObject;
+
+        thread t1(helloFunction);       // function    
+        thread t2(helloFunctionObject); // object
+        thread t3([]{ cout << "lambda function"; }); // lambda
+        t1.join();
+        t2.join();
+        t3.join();
+    }
+
+## Modern C++ guidelines
+
+- Use smart pointers (`std::unique_ptr` and `std::shared_ptr`) instead of raw pointers
+- Use `std::string` and `std::string_view` instead of `char*`
+- Use `std::vector` and other Standard Library containers
+
+Modern C++ emphasizes the principle of **resource acquisition is initialization (RAII)**. Resources (heap memory, file handles, sockets, and so on) should be owned by an object. That object creates, or receives, the newly allocated resource in its constructor, and deletes it in its destructor. The principle of RAII guarantees that all resources get properly returned to the operating system when the owning object goes out of scope.
 
 # References
 
