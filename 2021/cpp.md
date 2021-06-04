@@ -158,20 +158,88 @@ Modern guidelines:
 - `snake_case` for variables, namespaces and filenames
 - `ALL_CAPS` for preprocessor defines and macros
 
+### Notable features
+#### Bitmasks are used extensively
+    // Copied from winnt.h
+    
+    //
+    //  These are the generic rights.
+    //
+    
+    #define GENERIC_READ                     (0x80000000L)
+    #define GENERIC_WRITE                    (0x40000000L)
+    #define GENERIC_EXECUTE                  (0x20000000L)
+    #define GENERIC_ALL                      (0x10000000L)
 
-1. Standard library (vectors, stacks, hash maps, etc)
-1. Interesting features
-   1. Bitmasks
-   1. Unions
-   1. Friends of a class, function
-     - Unit tests can friend the class under test
-     - Factory can friend the class under construction
-1. New in version 11, 14 and 19:
-   1. Type deduction, auto keyword
-   1. Async programming
-   1. Anonymous functions (lambdas)
-   1. Unique and shared pointers
+#### Unions
+    union u_color
+    { 
+    	// first representation (member of union) 
+    	struct s_color
+        { 
+    		unsigned char a, b, g, r;
+    	} uc_color;
+     
+    	// second representation (member of union) 
+    	unsigned int i_color; 
+    };
 
+#### Friends
+    class Distance
+    {
+        private:
+            int meter;
+            
+            // friend function
+            friend int addFive(Distance);
+    
+        public:
+            Distance() : meter(0) {}
+    };
+    
+    // friend function definition
+    int addFive(Distance d)
+    {    
+        //accessing private members from the friend function
+        d.meter += 5;
+        return d.meter;
+    }
+    
+Example: A factory class can be a friend of the class that it's constructing.
+
+### Standard library
+Rich standard library contains useful data structures and algorithms.
+
+#### Sequence containers
+array
+vector
+deque
+queue
+forward_list 
+list
+
+#### Container adaptors
+stack
+queue
+priority_queue
+
+#### Associative containers
+set
+multiset
+map
+multimap
+
+#### Unordered associative containers
+unordered_set 
+unordered_multiset 
+unordered_map 
+unordered_multimap 
+
+### New in version 11, 14 and 19:
+#### Type deduction, auto keyword
+#### Async programming
+#### Anonymous functions (lambdas)
+#### Unique and shared pointers
 
 
 # References
