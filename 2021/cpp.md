@@ -158,7 +158,7 @@ Modern guidelines:
 - `snake_case` for variables, namespaces and filenames
 - `ALL_CAPS` for preprocessor defines and macros
 
-### Notable features
+## Notable features
 #### Bitmasks are used extensively
     // Copied from winnt.h
     
@@ -207,7 +207,7 @@ Modern guidelines:
     
 Example: A factory class can be a friend of the class that it's constructing.
 
-### Standard library
+## Standard library
 Rich standard library contains useful data structures and algorithms.
 
 #### Sequence containers
@@ -235,11 +235,11 @@ unordered_multiset
 unordered_map   
 unordered_multimap   
 
-### New in version 11, 14 and 19:
-#### Type deduction, auto keyword
-#### Async programming
-#### Anonymous functions (lambdas)
-#### Unique and shared pointers
+## New in version 11, 14 and 19:
+### Type deduction, auto keyword
+### Async programming
+### Anonymous functions (lambdas)
+### Unique and shared pointers
 
 
 # References
