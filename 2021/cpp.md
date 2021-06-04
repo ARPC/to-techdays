@@ -125,6 +125,7 @@ Raw pointers are the source of many serious programming errors. Since introducti
 #### Basic syntax
     /* Initialize pointer to zero so that it doesn't store a random address.   
     NULL or 0 is also acceptable. */
+
     int* p = nullptr;
 
     int i = 5;
@@ -183,12 +184,10 @@ C++ does not have garbage collector! If you allocate memory you must free it.
     ...    // now do something fun with all that memory
     free (buffer);    //    and deallocate it
 
-#### C++ style (new and delete)
+#### C++ style (new, new[], delete, delete[])
     char buffer[] = new char[2000];    // allocate 2000 bytes
     ...    // now do something fun with all that memory
     delete[] buffer;    //    and deallocate it
-
-### Unique pointers (C++ 11)
 
 ## Naming conventions
 
@@ -225,15 +224,15 @@ Modern guidelines:
 
 #### Unions
     union u_color
-    { 
-    	// first representation (member of union) 
-    	struct s_color
-        { 
-    		unsigned char a, b, g, r;
-    	} uc_color;
+    {
+        // first representation (member of union) 
+        struct s_color
+        {
+            unsigned char a, b, g, r;
+        } uc_color;
      
-    	// second representation (member of union) 
-    	unsigned int i_color; 
+        // second representation (member of union) 
+        unsigned int i_color; 
     };
 
 #### Friends
@@ -297,9 +296,6 @@ unordered_multimap
     {
         std::cout << x + y;
     }
-
-### Async programming
-
 
 ### Anonymous functions (lambdas)
 Lambdas aren’t functions but an instance of an object called a functor for which the call operator, operator (), is overloaded. The functor object automatically created by the compiler. The main difference between a function and a function object is that a function object is an object and can, therefore, have a state, which is used to capture invocation context.
@@ -381,6 +377,8 @@ The managed object is disposed of, using the associated deleter, when either of 
 
     // Initialize via assignment. Increments ref count.
     auto sp4 = sp2;
+
+### Async programming
 
 
 # References
