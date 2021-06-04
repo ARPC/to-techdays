@@ -8,53 +8,53 @@ Bjarne Stroustrup wanted an efficient and flexible language similar to C that al
 
 ## Features
 
-### Compiled
+#### Compiled
 C++ is a compiled programming language. There is no "intermediate" language, the code is compilied directly into machine code for the target platform.
 
-### Cross-platform (for the most part)
+#### Cross-platform (for the most part)
 There is a C++ compiler for every platform you can think of, but the compiled code is platform-dependent. The code can be written with cross-plafform compatibility in mind, and compiled for different targets.
 
-### Fast
+#### Fast
 Since the code is compliled directly to the machine code, the execution time of C++ code is unrivaled by C#, Java and many other general-purpose programming languages. 
 
-### Statically-typed
+#### Statically-typed
 C++ is a statically-typed language. The types are explicitly declared and are determined and checked at compile time.
 
-### Efficient memory access (pointers)
+#### Efficient memory access (pointers)
 Memory pointers is a defining feature of C/C++. It makes working with memory as efficient as it can possibly be.
 
-### Flexibility
+#### Flexibility
 C++ supports the features of both high-level and low-level programming languages, from object-oriented programming to comminicating with device drivers.
 
-### Rich standard library
+#### Rich standard library
 C++ Standard Template Library (STL) provides a lot of built-in functions and types, such as lists, vectors, hash maps, etc.
 
-### Multi-paradigm
+#### Multi-paradigm
 C++ is very feature-rich and supports different styles of programming. Developers can choose a programming style according to their use case and preferences.
  
 ## Use cases
 
 C++ is widely used in today’s embedded systems, browsers, graphical user interfaces, music players, video games, operating systems, compilers, system drivers, databases, and cloud computing.
 
-### Google
+#### Google
 Google has written many of its core systems in C++: Search engine, BigTable, MapReduce, Chromium, Google file system, etc.
 
-### Big tech
+#### Big tech
 Big tech generally uses C++ at various degrees in the back-end services and mobile applications. When you need efficiency at scale, C++ is an obvous choice.
 
-### Microsoft
+#### Microsoft
 Most parts of Microsoft Windows are written in C++. Windows API is written in and intended to be consumed from C++.
 
-### MySQL
+#### MySQL
 MySQL is coded in C++.
 
-### Bloomberg
+#### Bloomberg
 Bloomberg's systems are written in C++.
 
-### Adobe
+#### Adobe
 Most Adobe applications are written in C++: Adobe Illustrator, Adobe Photoshop, and Adobe Premier.
 
-### Star Wars
+#### Star Wars
 C and C++ were used in the programming of the special effects for Star Wars.
 
 ## Hello World
