@@ -9,7 +9,7 @@ Bjarne Stroustrup wanted an efficient and flexible language similar to C that al
 ## Features
 
 ### Compiled
-C++ is a compiled programming language. There is no "intermidiate" language, the code is compilied directly into machine code for the target platform.
+C++ is a compiled programming language. There is no "intermediate" language, the code is compilied directly into machine code for the target platform.
 
 ### Cross-platform (for the most part)
 There is a C++ compiler for every platform you can think of, but the compiled code is platform-dependent. The code can be written with cross-plafform compatibility in mind, and compiled for different targets.
@@ -23,14 +23,14 @@ C++ is a statically-typed language. The types are explicitly declared and are de
 ### Efficient memory access (pointers)
 Memory pointers is a defining feature of C/C++. It makes working with memory as efficient as it can possibly be.
 
-### Intermediate-level language
-C++ supports the features of both high-level and low-level programming languages. That is why it is known as an intermediate-level programming language.
+### Flexibility
+C++ supports the features of both high-level and low-level programming languages, from object-oriented programming to comminicating with device drivers.
 
 ### Rich standard library
 C++ Standard Template Library (STL) provides a lot of built-in functions and types, such as lists, vectors, hash maps, etc.
 
 ### Multi-paradigm
-C++ is very feature-ricg and supports different styles of programming. Developers can choose a programming style according to their use case.
+C++ is very feature-rich and supports different styles of programming. Developers can choose a programming style according to their use case and preferences.
  
 ## Use cases
 
@@ -40,7 +40,7 @@ C++ is widely used in today’s embedded systems, browsers, graphical user inter
 Google has written many of its core systems in C++: Search engine, BigTable, MapReduce, Chromium, Google file system, etc.
 
 ### Big tech
-Big tech uses C++ at various degrees on the back end services and mobile applications. When you need an efficiency at scale, C++ is an obvous choice.
+Big tech generally uses C++ at various degrees in the back-end services and mobile applications. When you need efficiency at scale, C++ is an obvous choice.
 
 ### Microsoft
 Most parts of Microsoft Windows are written in C++. Windows API is written in and intended to be consumed from C++.
@@ -70,9 +70,9 @@ C and C++ were used in the programming of the special effects for Star Wars.
 Prerry much the same as C#.
 
 ## Header files
-C/C++ diffirentiate between type declaration and type definition. Types (including classes and functions) are usually declared in header files (.h) which are included by *.cpp files as needed. 
+C/C++ diffirentiate between declaration and definition. Types (including classes and functions) are declared in `*.h` header files that are "included" in `*.cpp` files using the `#include` preprocessor directive. 
 
-Each .cpp file is complied independently to its own .obj file. Refences to functions/methods declared in *.h files (but implemented in other modules) are resolved during linking stage of the build.
+Each `.cpp` file is complied to its own `.obj` file independently. Refences to functions/methods declared but implemented outside of the current module are resolved during linking stage of the build.
 
 #### HexFormatter.cpp
     bool FormatAsHex(char *bytes,
@@ -90,7 +90,7 @@ Each .cpp file is complied independently to its own .obj file. Refences to funct
         char *buffer,
         DWORD bufferLen);
 
-### CppFileReadSample.cpp 
+#### CppFileReadSample.cpp 
 
     #include "HexFormatter.h"    
     ...    
@@ -153,10 +153,10 @@ adjHungarian nNotation vMakes nReading nCode adjDifficult ccBut nMicrosoft advRe
       HANDLE                hTemplateFile
     );
     
-Modern guidelines recommend:
-- **pascalCase** for function and type names
-- **snake_case** for variables, namespaces and filenames
-- **ALL_CAPS** for preprocessor defines and macros
+Modern guidelines:
+- `pascalCase` for function and type names
+- `snake_case` for variables, namespaces and filenames
+- `ALL_CAPS` for preprocessor defines and macros
 
 
 1. Standard library (vectors, stacks, hash maps, etc)
