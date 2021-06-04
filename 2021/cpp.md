@@ -123,27 +123,18 @@ A pointer is a variable that stores the memory address of an object. Pointers ar
 Raw pointers are the source of many serious programming errors. Since introduction of smart pointers for allocating objects, iterators for traversing data structures, and lambda expressions for passing functions the use of raw pointers is strongly discouraged.
 
 #### Basic syntax
-    int* p = nullptr; // Initialize to zero so that it doesn't store a random address. NULL or 0 is also acceptable.
+    /* Initialize pointer to zero so that it doesn't store a random address.   
+    NULL or 0 is also acceptable. */
+    int* p = nullptr;
 
     int i = 5;
-    p = &i; // Assign pointer to address of object
+    p = &i;     // Assign pointer to address of object
     int j = *p; // Dereference p to retrieve the value at its address
 
 #### Pointers to objects
     MyClass* mc = new MyClass(); // allocate object on the heap
-    mc->print(); // access class member
-    delete mc; // delete object (please don't forget!)
-
-
-    char *lastName = NULL;    // or 0 or nullptr
-    char *firstName = "John";
-    
-    /*
-    * arrays are pointers - a and b have the same type
-    * but b point to a memory allocated on the call stack
-    */
-    int *a = NULL;
-    int b[10];
+    mc->print();     // access class member
+    delete mc;       // delete object (please don't forget!)
 
 #### Pointer arithmetic and arrays
 Pointers and arrays are closely related. When an array is passed by-value to a function, it's passed as a pointer to the first element. The following example demonstrates the following important properties of pointers and arrays:
