@@ -102,7 +102,7 @@ Each `.cpp` file is complied to its own `.obj` file independently. Refences to f
     ...
 
 
-## Precompiler directives
+## Preprocessor directives
     // copied from vcruntime.h
 
     #ifndef NULL
@@ -154,7 +154,7 @@ adjHungarian nNotation vMakes nReading nCode adjDifficult ccBut nMicrosoft advRe
     );
     
 Modern guidelines:
-- `pascalCase` for function and type names
+- `PascalCase` for function and type names
 - `snake_case` for variables, namespaces and filenames
 - `ALL_CAPS` for preprocessor defines and macros
 
@@ -191,14 +191,14 @@ Modern guidelines:
             int meter;
             
             // friend function
-            friend int addFive(Distance);
+            friend int AddFive(Distance);
     
         public:
             Distance() : meter(0) {}
     };
     
     // friend function definition
-    int addFive(Distance d)
+    int AddFive(Distance d)
     {    
         //accessing private members from the friend function
         d.meter += 5;
@@ -211,29 +211,29 @@ Example: A factory class can be a friend of the class that it's constructing.
 Rich standard library contains useful data structures and algorithms.
 
 #### Sequence containers
-array
-vector
-deque
-queue
-forward_list 
-list
+array  
+vector  
+deque  
+queue  
+forward_list   
+list  
 
 #### Container adaptors
-stack
-queue
-priority_queue
+stack  
+queue  
+priority_queue  
 
 #### Associative containers
-set
-multiset
-map
-multimap
+set  
+multiset  
+map  
+multimap  
 
 #### Unordered associative containers
-unordered_set 
-unordered_multiset 
-unordered_map 
-unordered_multimap 
+unordered_set   
+unordered_multiset   
+unordered_map   
+unordered_multimap   
 
 ### New in version 11, 14 and 19:
 #### Type deduction, auto keyword
