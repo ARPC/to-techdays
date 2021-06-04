@@ -70,7 +70,7 @@ C and C++ were used in the programming of the special effects for Star Wars.
 Prerry much the same as C#.
 
 ## Header files
-C/C++ diffirentiate between declaration and definition. Types (including classes and functions) are declared in `*.h` header files that are "included" in `*.cpp` files using the `#include` preprocessor directive. 
+C/C++ differentiate between declaration and definition. Types (including classes and functions) are declared in `*.h` header files that are "included" in `*.cpp` files using the `#include` preprocessor directive. 
 
 Each `.cpp` file is complied to its own `.obj` file independently. Refences to functions/methods declared but implemented outside of the current module are resolved during linking stage of the build.
 
@@ -118,7 +118,7 @@ Each `.cpp` file is complied to its own `.obj` file independently. Refences to f
     char *firstName = "John";
     
     /*
-    * array are pointers - a and b have the same type
+    * arrays are pointers - a and b have the same type
     * but b point to a memory allocated on the call stack
     */
     int *a = NULL;
@@ -173,6 +173,9 @@ Modern guidelines:
    1. Unique and shared pointers
 
 
-google.github.io/styleguide/cppguide.html
+
+# References
+
+1. google.github.io/styleguide/cppguide.html
 https://isocpp.github.io/CppCoreGuidelines/CppCoreGuidelines
 
