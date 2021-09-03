@@ -10,9 +10,9 @@ namespace DecodeWays
 
             for (int i=s.Length-1; i>= 0; i--)
             {
-                int digit = s[i] - '0';
                 int num = 0;
-                
+                int digit = s[i] - '0';  
+                              
                 if (digit > 0)
                 {
                     //  evaluate as a single-digit number
