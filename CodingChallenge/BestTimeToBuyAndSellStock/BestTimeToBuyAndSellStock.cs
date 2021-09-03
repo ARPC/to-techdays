@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace FindTownJudge
+namespace BestTimeToBuyAndSellStock
 {
     public class Program
     {

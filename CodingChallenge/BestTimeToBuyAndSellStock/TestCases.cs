@@ -1,7 +1,7 @@
 using System;
 using NUnit.Framework;
 
-namespace FindTownJudge
+namespace BestTimeToBuyAndSellStock
 {
     [TestFixture]
     public class TestCases
