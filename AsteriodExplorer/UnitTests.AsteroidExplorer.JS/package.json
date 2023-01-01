@@ -14,12 +14,12 @@
   "karma-firefox-launcher": "^1.1.0",
   "karma-ie-launcher": "^1.0.0",
   "karma-jasmine": "^2.0.1",
-  "karma-webpack": "^4.0.2",
+  "karma-webpack": "^5.0.0",
   "puppeteer": "^1.17.0",
   "vue": "^2.6.10",
-  "vue-loader": "^15.7.1",
+  "vue-loader": "^17.0.1",
   "vue-template-compiler": "^2.6.10",
-  "webpack": "^4.36.1"
+  "webpack": "^5.75.0"
  },
  "scripts": {
   "test": "jasmine",
