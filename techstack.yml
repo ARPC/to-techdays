@@ -1,0 +1,2882 @@
+repo_name: ARPC/to-techdays
+report_id: 1af07b125af2fb152251cf9ce0815faa
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-06T19:41:03+00:00'
+requested_by: amachnev
+provider: github
+branch: master
+detected_tools_count: 202
+tools:
+- name: ASP.NET
+  description: An open source web framework for building modern web apps and services
+    with .NET
+  website_url: https://www.asp.net/
+  version: 4.6.1
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6755/2c45151a4a11d3a3c8e71bb34dd069d6_400x400.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/June/CShartFeaturesOverview/CSharpFeaturesOverview.csproj
+  detection_source: 2017/June/CShartFeaturesOverview/CSharpFeaturesOverview.csproj
+  last_updated_by: AM
+  last_updated_on: 2018-03-09 01:17:36.000000000 Z
+- name: C lang
+  description: One of the most widely used programming languages of all time
+  website_url: http://en.wikipedia.org/wiki/C_(programming_language)
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: C++
+  description: Has imperative, object-oriented and generic programming features, while
+    also providing the facilities for low level memory manipulation
+  website_url: http://www.cplusplus.com/
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1049/cplusplus.png
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: CSS 3
+  description: The latest evolution of the Cascading Style Sheets language
+  website_url: https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/6727/css.png
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: CoffeeScript
+  description: A little language that compiles into JavaScript
+  website_url: http://coffeescript.org/
+  version: 1.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1178/slQydAMv.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ipaddr.js/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ipaddr.js/src/ipaddr.coffee
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: EJS
+  description: An Embedded JavaScript templating Language
+  website_url: https://ejs.co/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Templating Languages & Extensions
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: ES6
+  description: The next version of JavaScript
+  website_url: http://www.ecma-international.org/ecma-262/6.0/
+  version: 6.14.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/4109/16407404782_8b9c57eab3.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: JavaScript
+  description: Lightweight, interpreted, object-oriented language with first-class
+    functions
+  website_url: https://developer.mozilla.org/en-US/docs/Web/JavaScript
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: Python
+  description: A clear and powerful object-oriented programming language, comparable
+    to Perl, Ruby, Scheme, or Java.
+  website_url: https://www.python.org
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/TennisAwesome/TennisAwesome.Web/TennisAwesome.Web.csproj
+  detection_source: TennisAwesome/TennisAwesome.Web/TennisAwesome.Web.csproj
+  last_updated_by: Artem Machnev
+  last_updated_on: 2018-06-29 19:09:13.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '2.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/MongoChat.csproj
+  detection_source: 2017/December/MongoChat/MongoChat.csproj
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2017/December/MongoChat/MongoChat.csproj
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: Bootstrap
+  description: Simple and flexible HTML, CSS, and JS for popular UI components and
+    interactions
+  website_url: http://getbootstrap.com/
+  version: 3.3.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Front-End Frameworks
+  image_url: https://img.stackshare.io/service/1101/C9QJ7V3X.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/bower.json
+  detection_source: 2017/December/MongoChat/bower.json
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: ExpressJS
+  description: Sinatra inspired web development framework for node.js -- insanely
+    fast, flexible, and simple
+  website_url: http://expressjs.com/
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Microframeworks (Backend)
+  image_url: https://img.stackshare.io/service/1163/hashtag.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Vue.js
+  description: A progressive framework for building user interfaces
+  website_url: http://vuejs.org/
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript MVC Frameworks
+  image_url: https://img.stackshare.io/service/3837/paeckCWC.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: AM
+  last_updated_on: 2019-06-07 20:59:26.000000000 Z
+- name: css-loader
+  description: Helps webpack to collect CSS from all the css files
+  website_url: https://github.com/webpack-contrib/css-loader
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: CSS Pre-processors / Extensions
+  image_url: https://img.stackshare.io/service/8074/default_d2b16fd6997fb2e164de645a34f9b8d5a880d999.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/package.json
+  detection_source: AsteriodExplorer/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: jQuery
+  description: The Write Less, Do More, JavaScript Library.
+  website_url: http://jquery.com/
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript UI Libraries
+  image_url: https://img.stackshare.io/service/1021/lxEKmMnB_400x400.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/bower.json
+  detection_source: 2017/December/MongoChat/bower.json
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: Dapper
+  description: A simple object mapper for .Net
+  website_url: https://stackexchange.github.io/Dapper/
+  version: 1.50.5
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/5847/default_377344b5aec46a959a5debae12cb81f81a64dce3.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/TennisAwesome/TennisAwesome.Web/obj/project.assets.json
+  detection_source: TennisAwesome/TennisAwesome.Web/TennisAwesome.Web.csproj
+  last_updated_by: Artem Machnev
+  last_updated_on: 2018-06-29 19:09:13.000000000 Z
+- name: Entity Framework
+  description: An object-relational mapper that enables .NET developers to work with
+    relational data
+  website_url: https://docs.microsoft.com/en-us/aspnet/entity-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/3251/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: MongoDB
+  description: The database for giant ideas
+  website_url: http://www.mongodb.com/
+  version: 2.2.35
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1030/leaf-360x360.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2017/December/MongoChat/MongoChat.csproj
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: NHibernate
+  description: The object-relational mapper for .NET
+  website_url: https://nhibernate.info
+  version: 4.0.4
+  license: LGPL-2.1
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Object Relational Mapper (ORM)
+  image_url: https://img.stackshare.io/service/2250/LogoNH_med_400x400.JPG
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/March/NServiceBus/TechDay_NSB_SampleCode/MessageReceiver/packages.config
+  detection_source: 2018/March/NServiceBus/TechDay_NSB_SampleCode/MessageReceiver/packages.config
+  last_updated_by: pair1
+  last_updated_on: 2018-04-27 21:11:30.000000000 Z
+- name: NServiceBus
+  description: 'Enterprise-grade scalability and reliability for your workflows and
+    integrations '
+  website_url: http://particular.net/nservicebus
+  open_source: false
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Message Queue
+  image_url: https://img.stackshare.io/service/2885/ENuT-Iy4_400x400.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/March/NServiceBus/TechDay_NSB_SampleCode/Common/packages.config
+  detection_source: 2018/March/NServiceBus/TechDay_NSB_SampleCode/Common/packages.config
+  last_updated_by: pair1
+  last_updated_on: 2018-04-27 21:11:30.000000000 Z
+- name: Redis
+  description: Open source (BSD licensed), in-memory data structure store
+  website_url: http://redis.io/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: In-Memory Databases
+  image_url: https://img.stackshare.io/service/1031/default_cbce472cd134adc6688572f999e9122b9657d4ba.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Babel
+  description: Use next generation JavaScript, today.
+  website_url: http://babeljs.io/
+  version: 6.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JavaScript Compilers
+  image_url: https://img.stackshare.io/service/2739/-1wfGjNw.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Browserify
+  description: Browser-side require() the node.js way
+  website_url: http://browserify.org/
+  version: 16.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/849/9esmqty2.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Chai
+  description: A BDD / TDD assertion library
+  website_url: http://chaijs.com/
+  version: 4.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/1725/chai.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Coveralls
+  description: Track your project's code coverage over time, changes to files, and
+    badge your GitHub repo
+  website_url: https://coveralls.io/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/680/a43e4a04cb9f778842de43f95db59a14.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: ESLint
+  description: The fully pluggable JavaScript code quality tool
+  website_url: http://eslint.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/3337/Q4L7Jncy.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: EditorConfig
+  description: 'A file format and collection of text editor plugins for maintaining
+    consistent coding styles '
+  website_url: http://editorconfig.org
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/4726/edcon_color_transbg2_400x400.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/ARPC/to-techdays
+  detection_source: Repo Metadata
+- name: Istanbul
+  description: A JS code coverage tool written in JS
+  website_url: http://gotwarlost.github.io/istanbul/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Coverage
+  image_url: https://img.stackshare.io/service/2105/default_78659c552327b8ff3592c2aa1694ea92c974a8d5.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Jasmine
+  description: DOM-less simple JavaScript testing framework
+  website_url: http://jasmine.github.io/
+  version: 3.4.0
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/831/7c0b595409af531b9cdeb07f8c513e8b.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: Karma
+  description: Spectacular Test Runner for JavaScript
+  website_url: http://karma-runner.github.io/
+  version: 4.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Browser Testing
+  image_url: https://img.stackshare.io/service/1420/TidYGd6a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Mocha
+  description: Simple, flexible, fun javascript test framework for node.js &amp; the
+    browser
+  website_url: http://mochajs.org/
+  version: 3.5.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/832/mocha.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: NUnit
+  description: An open-source unit testing framework
+  website_url: http://www.nunit.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2371/jZ6MYx5Y_400x400.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/TennisAwesome/TennisAwesome.Web/TennisAwesome.Web.csproj
+  detection_source: TennisAwesome/TennisAwesome.Web/TennisAwesome.Web.csproj
+  last_updated_by: Artem Machnev
+  last_updated_on: 2018-06-29 19:09:13.000000000 Z
+- name: PhantomJS
+  description: Scriptable Headless WebKit
+  website_url: https://phantomjs.org/
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/1832/phantomjs.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Prettier
+  description: 'Prettier is an opinionated code formatter. '
+  website_url: https://prettier.io/
+  version: 1.12.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Code Review
+  image_url: https://img.stackshare.io/service/7035/default_66f265943abed56bcdbfca1c866a4261b1fbb063.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb-core/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Puppeteer
+  description: Headless Chrome Node API
+  website_url: https://github.com/GoogleChrome/puppeteer
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Headless Browsers
+  image_url: https://img.stackshare.io/service/7553/puppeteer.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: SinonJS
+  description: Standalone test spies, stubs and mocks for JavaScript
+  website_url: http://sinonjs.org/
+  version: 6.0.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/service/3509/logo.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: SuperTest
+  description: 'A library for testing node.js HTTP servers '
+  website_url: https://www.npmjs.com/package/supertest
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Javascript Testing Framework
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Travis CI
+  description: A hosted continuous integration service for open source and private
+    projects
+  website_url: http://travis-ci.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/460/Lu6cGu0z_400x400.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/.travis.yml
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/.travis.yml
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/June/CShartFeaturesOverview.sln
+  detection_source: 2017/June/CShartFeaturesOverview.sln
+  last_updated_by: AM
+  last_updated_on: 2018-03-09 01:17:36.000000000 Z
+- name: Webpack
+  description: A bundler for javascript and friends
+  website_url: http://webpack.js.org
+  version: 4.36.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: JS Build Tools / JS Task Runners
+  image_url: https://img.stackshare.io/service/1682/IMG_4636.PNG
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Yarn
+  description: A new package manager for JavaScript
+  website_url: https://yarnpkg.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/5848/44mC-kJ3.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Zuul
+  description: An edge service that provides dynamic routing, monitoring, resiliency,
+    security, and more
+  website_url: https://github.com/Netflix/zuul
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Microservices Tools
+  image_url: https://img.stackshare.io/service/2932/zuul.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/safe-buffer/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/safe-buffer/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: npm
+  description: The package manager for JavaScript.
+  website_url: https://www.npmjs.com/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Front End Package Manager
+  image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/package.json
+  detection_source: AsteriodExplorer/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: pre-commit
+  description: A slightly improved pre-commit hook for git
+  website_url: http://jish.github.io/pre-commit/
+  version: 1.0.7
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Git Tools
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/array-flatten/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/array-flatten/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Segment
+  description: A single hub to collect, translate and send your data with the flip
+    of a switch.
+  website_url: https://segment.com/?utm_medium=paid-display&utm_source=stackshare&utm_campaign=analytics
+  open_source: false
+  hosted_saas: true
+  category: Analytics
+  sub_category: Analytics Integrator
+  image_url: https://img.stackshare.io/service/5/default_aa447805966bbb635af0d113e93e1f1030497052.jpg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mime-types/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mime-types/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Bluebird
+  description: A full featured promise library with unmatched performance
+  website_url: https://github.com/petkaantonov/bluebird/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/service/11991/bb.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/node_modules/raw-body/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/raw-body/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Firefox
+  description: Mozilla's Web Browser
+  website_url: https://www.mozilla.org/en-US/firefox/
+  open_source: false
+  hosted_saas: false
+  category: Back Office
+  sub_category: Web Browser
+  image_url: https://img.stackshare.io/service/8705/768px-Firefox_Logo__2017.svg.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: React Navigation
+  description: Flexible navigation library for React Native and web. Learn once, navigate
+    anywhere.
+  website_url: https://reactnavigation.org/
+  open_source: false
+  hosted_saas: false
+  category: Mobile
+  sub_category: Cross-Platform Mobile Tools
+  image_url: https://img.stackshare.io/service/6422/react-navigation.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Tape
+  description: 'i''m the package manager for javascript. problems? try @npm_support
+    and #npm on freenode.'
+  website_url: https://www.npmjs.com/package/tape
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/3722/lejvzrnlpb308aftn31u_normal.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: axios
+  description: Promise based HTTP client for the browser and node.js
+  website_url: https://github.com/mzabriskie/axios
+  version: 0.19.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Javascript Utilities & Libraries
+  image_url: https://img.stackshare.io/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/package-lock.json
+  detection_source: AsteriodExplorer/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: husky
+  website_url: https://github.com/typicode/husky
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/9527/5502029.jpeg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ms/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ms/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: jsdoc
+  description: An API documentation generator for JavaScript
+  website_url: http://usejsdoc.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: Documentation as a Service & Tools
+  image_url: https://img.stackshare.io/service/4047/js-doc.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb-core/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: lint-staged
+  website_url: https://github.com/okonet/lint-staged
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/10577/11071.jpeg
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ms/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ms/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: xo
+  description: Zero configuration fixer and linter for javascript code.
+  website_url: https://www.npmjs.com/package/xo
+  open_source: false
+  hosted_saas: false
+  image_url: https://img.stackshare.io/service/4535/no-img-open-source.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: "@vue/test-utils"
+  description: Utilities for testing Vue components
+  package_url: https://www.npmjs.com/@vue/test-utils
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16231/default_41f04716a804e853d5c38a5b81ee0ea8a842ad82.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: accepts
+  description: Higher-level content negotiation
+  package_url: https://www.npmjs.com/accepts
+  version: 1.3.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17723/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: after
+  description: After - tiny flow control
+  package_url: https://www.npmjs.com/after
+  version: 0.8.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17934/default_c741d08ac1035482640dcd4a57c59231d0ce4858.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: array-flatten
+  description: Flatten nested arrays
+  package_url: https://www.npmjs.com/array-flatten
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18115/image.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: async
+  description: Higher-order functions and common patterns for asynchronous code
+  package_url: https://www.npmjs.com/async
+  version: 1.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15851/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/iconv-lite/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: ava
+  description: Testing can be a drag. AVA helps you get it done
+  package_url: https://www.npmjs.com/ava
+  version: 0.19.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15883/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/saslprep/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: babel-core
+  description: Babel compiler core
+  package_url: https://www.npmjs.com/babel-core
+  version: 6.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15798/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: babel-loader
+  description: Babel module loader for webpack
+  package_url: https://www.npmjs.com/babel-loader
+  version: 6.2.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15800/default_4acafe585186b4157fa23322ae7ca89e24b5cdef.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: babel-polyfill
+  description: Provides polyfills necessary for a full ES2015+ environment
+  package_url: https://www.npmjs.com/babel-polyfill
+  version: 6.13.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15867/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: babel-preset-stage-0
+  description: Babel preset for stage 0 plugins
+  package_url: https://www.npmjs.com/babel-preset-stage-0
+  version: 6.5.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15846/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: babel-register
+  description: Babel require hook
+  package_url: https://www.npmjs.com/babel-register
+  version: 6.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15865/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: benchmark
+  description: A benchmarking library that supports high-resolution timers &amp; returns
+    statistically significant results
+  package_url: https://www.npmjs.com/benchmark
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16241/default_cbc604730ab04341982d806fe402cd0706cc8bf4.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: body-parser
+  description: Node.js body parsing middleware
+  package_url: https://www.npmjs.com/body-parser
+  version: 1.18.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15906/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: bson
+  description: A bson parser for node.js and the browser
+  package_url: https://www.npmjs.com/bson
+  version: 2.0.8
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17380/default_c1932d441699b98abea6098c6f8f65e2acb4f5ed.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb-core/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: bytes
+  description: Utility to parse a string bytes to bytes and vice-versa
+  package_url: https://www.npmjs.com/bytes
+  version: 3.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17201/default_37d9ccc57ae4d32e7ff46614e4f8bb2c4ddc7964.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: chai-subset
+  description: Object properties matcher for Chai
+  package_url: https://www.npmjs.com/chai-subset
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17233/default_9fc4b0c75e3fd0ca34b2b1e215b90fd3d79ddde3.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb-core/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: co
+  description: Generator async control flow goodness
+  package_url: https://www.npmjs.com/co
+  version: 4.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16007/default_f8be85789693a9901dbcfa43c135c60525ae49a1.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mime-db/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: coffee-script
+  description: Unfancy JavaScript
+  package_url: https://www.npmjs.com/coffee-script
+  version: 1.12.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15920/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ipaddr.js/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ipaddr.js/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: colors
+  description: Get colors in your node.js console
+  package_url: https://www.npmjs.com/colors
+  version: 1.3.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15908/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: concurrently
+  description: Run commands concurrently
+  package_url: https://www.npmjs.com/concurrently
+  version: 3.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16041/default_5fd43aeff4d6a935abc13737de01a0355210499d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: connect-redis
+  description: Redis session store for Connect
+  package_url: https://www.npmjs.com/connect-redis
+  version: 2.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17325/default_6afdd1bc7e3815a18b56c31d0b4acf372c00f6e2.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: content-disposition
+  description: Create and parse Content-Disposition header
+  package_url: https://www.npmjs.com/content-disposition
+  version: 0.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18396/default_dc6769b9772560ba4cb2cd0455560c2922e23c92.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: content-type
+  description: Create and parse HTTP Content-Type header
+  package_url: https://www.npmjs.com/content-type
+  version: 1.0.4
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17887/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: conventional-changelog-cli
+  description: Generate a changelog from git metadata
+  package_url: https://www.npmjs.com/conventional-changelog-cli
+  version: 1.3.22
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16260/default_9924e5da1d50ea01e52b48e4fae4b1347af5e4ff.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: cookie
+  description: HTTP server cookie parsing and serialization
+  package_url: https://www.npmjs.com/cookie
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16660/default_e654289254bcb9b55e3dca992739e962dc0c7297.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: cookie-parser
+  description: Parse HTTP request cookies
+  package_url: https://www.npmjs.com/cookie-parser
+  version: 1.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16136/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: cookie-session
+  description: Cookie session middleware
+  package_url: https://www.npmjs.com/cookie-session
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17669/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: cookie-signature
+  description: Sign and unsign cookies
+  package_url: https://www.npmjs.com/cookie-signature
+  version: 1.0.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18266/default_7f9b12bbc55824c0dff067aa1286b7d2699852f9.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: covert
+  description: Code coverage command con coverify
+  package_url: https://www.npmjs.com/covert
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18700/default_fc5b023c2170b00beeade822bdceeaf129047406.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: csv-parse
+  description: CSV parsing implementing the Node.js `stream.Transform` API
+  package_url: https://www.npmjs.com/csv-parse
+  version: 1.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17054/default_d17bbf7e4f3b102e29ff09c01b8165e7ba600319.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mime-db/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mime-db/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: Regular Expression Denial of Service in csv-parse
+    cve_id: CVE-2019-17592
+    cve_url: https://github.com/advisories/GHSA-582f-p4pg-xc74
+    detected_date: Aug 22
+    severity: high
+    first_patched: 4.4.6
+- name: debug
+  description: Small debugging utility
+  package_url: https://www.npmjs.com/debug
+  version: 2.6.8
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15852/default_a2f722724df977d0f7752839e5d8845ab41f69d5.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: debug Inefficient Regular Expression Complexity vulnerability
+    cve_id: CVE-2017-20165
+    cve_url: https://github.com/advisories/GHSA-9vvw-cc9w-f27h
+    detected_date: Jan 11
+    severity: high
+    first_patched: 2.6.9
+  - name: Regular Expression Denial of Service in debug
+    cve_id: CVE-2017-16137
+    cve_url: https://github.com/advisories/GHSA-gxpj-cx7g-858c
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 2.6.9
+- name: depd
+  description: Deprecate all the things
+  package_url: https://www.npmjs.com/depd
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17670/default_4ba4cce198b4498f328ca26971f69b03cf49892a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: es6-promise
+  description: A lightweight library that provides tools for organizing asynchronous
+    code
+  package_url: https://www.npmjs.com/es6-promise
+  version: 3.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16051/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/require_optional/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: escape-html
+  description: Escape string for use in HTML
+  package_url: https://www.npmjs.com/escape-html
+  version: 1.0.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17037/default_88e2e076a71afdc1de87ad42c80c1606f2689af1.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-config-standard
+  description: JavaScript Standard Style - ESLint Shareable Config
+  package_url: https://www.npmjs.com/eslint-config-standard
+  version: 11.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15872/default_e4668902f8489350db9b0fb228523a571ef05b26.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-plugin-import
+  description: Import with sanity
+  package_url: https://www.npmjs.com/eslint-plugin-import
+  version: 2.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15806/default_98aa227f51aa9d787815ec3fd98d0ab2bfebbb91.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-plugin-markdown
+  description: An ESLint plugin to lint JavaScript in Markdown code fences
+  package_url: https://www.npmjs.com/eslint-plugin-markdown
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16770/default_6e51a44775c61dcb2888547ad406a2f0cf2c344e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-plugin-node
+  description: Additional ESLint's rules for Node.js
+  package_url: https://www.npmjs.com/eslint-plugin-node
+  version: 6.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15874/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-plugin-prettier
+  description: Runs prettier as an eslint rule
+  package_url: https://www.npmjs.com/eslint-plugin-prettier
+  version: 2.6.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15896/default_6e6e1d6bb189c8bb26c6410618bd597979578f39.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb-core/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-plugin-promise
+  description: Enforce best practices for JavaScript promises
+  package_url: https://www.npmjs.com/eslint-plugin-promise
+  version: 3.6.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15885/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: eslint-plugin-standard
+  description: ESlint Plugin for the Standard Linter
+  package_url: https://www.npmjs.com/eslint-plugin-standard
+  version: 3.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15884/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: etag
+  description: Create simple HTTP ETags
+  package_url: https://www.npmjs.com/etag
+  version: 1.8.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17743/default_552addbbff67ec0ef62ce1d229e112d14ca818f5.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: expect.js
+  description: BDD style assertions for node and the browser
+  package_url: https://www.npmjs.com/expect.js
+  version: 0.3.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16029/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ms/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ms/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: express
+  description: Fast, unopinionated, minimalist web framework
+  package_url: https://www.npmjs.com/express
+  version: 4.16.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15818/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 4.17.3
+- name: express-session
+  description: Simple session middleware for Express
+  package_url: https://www.npmjs.com/express-session
+  version: 1.15.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16239/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: finalhandler
+  description: Node.js final http responder
+  package_url: https://www.npmjs.com/finalhandler
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17238/default_747c790463912ea0e3a85597146d9c13d6a53db9.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: fresh
+  description: HTTP response freshness testing
+  package_url: https://www.npmjs.com/fresh
+  version: 0.5.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18037/default_d8756eea8d13a271fb42437ffb36c0a116d72925.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: hbs
+  description: Express.js template engine plugin for Handlebars
+  package_url: https://www.npmjs.com/hbs
+  version: 4.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17878/default_788839e3786ca1ccd5da69cc550f25d0129fb180.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: Insertion of Sensitive Information into Externally-Accessible File or Directory
+      and Exposure of Sensitive Information to an Unauthorized Actor in hbs
+    cve_id: CVE-2021-32822
+    cve_url: https://github.com/advisories/GHSA-7f5c-rpf4-86p8
+    detected_date: Sep 3
+    severity: moderate
+    first_patched: 
+- name: http-errors
+  description: Create HTTP error objects
+  package_url: https://www.npmjs.com/http-errors
+  version: 1.6.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16925/default_7b9968788548874538c601457e8dcd9c74bd2051.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: husky
+  description: Prevents bad commit or push
+  package_url: https://www.npmjs.com/husky
+  version: 0.13.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15831/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ms/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ms/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: iconv
+  description: Text recoding in JavaScript for fun and profit!
+  package_url: https://www.npmjs.com/iconv
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17911/default_40b5ae806e118a20c1717c75a46652a7358d8b42.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/node_modules/iconv-lite/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/iconv-lite/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: iconv-lite
+  description: Convert character encodings in pure javascript
+  package_url: https://www.npmjs.com/iconv-lite
+  version: 0.4.23
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16350/default_4cc3f31b8c64a6268fc123f0965a09d1b11180af.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: inherits
+  description: Browser-friendly inheritance fully compatible with standard node.js
+    inherits
+  package_url: https://www.npmjs.com/inherits
+  version: 2.0.3
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16376/default_17385ab3aa01d4c295c08d4a9736140df691c5e9.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/raw-body/node_modules/http-errors/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: ipaddr.js
+  description: A library for manipulating IPv4 and IPv6 addresses in JavaScript
+  package_url: https://www.npmjs.com/ipaddr.js
+  version: 1.6.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18686/default_aa04137358f471f73d601f7d8b94126c37bdd90c.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/proxy-addr/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: karma-chai
+  description: Chai for Karma
+  package_url: https://www.npmjs.com/karma-chai
+  version: 0.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16177/default_9a7a7dcd69c12c746dc4000dc4d1b75758079c9f.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: karma-chrome-launcher
+  description: A Karma plugin. Launcher for Chrome and Chrome Canary
+  package_url: https://www.npmjs.com/karma-chrome-launcher
+  version: 2.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15860/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: karma-firefox-launcher
+  description: A Karma plugin. Launcher for Firefox
+  package_url: https://www.npmjs.com/karma-firefox-launcher
+  version: 1.1.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16026/default_924b66c04aa848a4028c1a5753a23dae0f835f86.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: karma-ie-launcher
+  description: A Karma plugin. Launcher for Internet Explorer
+  package_url: https://www.npmjs.com/karma-ie-launcher
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16553/default_682ffbfa52bb1873b212151cffed5d464d6efdfb.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: karma-jasmine
+  description: A Karma plugin - adapter for Jasmine testing framework
+  package_url: https://www.npmjs.com/karma-jasmine
+  version: 2.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15886/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: karma-mocha
+  description: A Karma plugin. Adapter for Mocha testing framework
+  package_url: https://www.npmjs.com/karma-mocha
+  version: 1.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15962/default_732016a20524708efe7a4c77497fe9bfeea19ba6.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: karma-phantomjs-launcher
+  description: A Karma plugin. Launcher for PhantomJS
+  package_url: https://www.npmjs.com/karma-phantomjs-launcher
+  version: 1.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15947/default_54b691c123fc8979741e800e4dcd3936c0f3b246.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: karma-sinon
+  description: Sinon for Karma
+  package_url: https://www.npmjs.com/karma-sinon
+  version: 1.0.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16601/default_5a21421012fa20e57fe0aeab31228f42e7118abc.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: karma-webpack
+  description: Use webpack with karma
+  package_url: https://www.npmjs.com/karma-webpack
+  version: 4.0.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15955/default_f49d4c116f8ea0155f4d92673b084378bba02760.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: lint-staged
+  description: Lint files staged by git
+  package_url: https://www.npmjs.com/lint-staged
+  version: 3.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15868/default_e0a4fb1126d7400f419f0931cf1669947a5bc552.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/ms/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ms/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: lodash.camelcase
+  description: The lodash method `_.camelCase` exported as a module
+  package_url: https://www.npmjs.com/lodash.camelcase
+  version: 4.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16436/default_aa91da3cee4d961f0eea8ca5de77f399ec7ec794.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mongodb/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: marked
+  description: A markdown parser built for speed
+  package_url: https://www.npmjs.com/marked
+  version: 0.3.19
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16065/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21681
+    cve_url: https://github.com/advisories/GHSA-5v2h-r2cx-5xgj
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Inefficient Regular Expression Complexity in marked
+    cve_id: CVE-2022-21680
+    cve_url: https://github.com/advisories/GHSA-rrrm-qjm4-v8hf
+    detected_date: Jan 15
+    severity: high
+    first_patched: 4.0.10
+  - name: Marked ReDoS due to email addresses being evaluated in quadratic time
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-xf5p-87ch-gxw2
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 0.6.2
+- name: merge-descriptors
+  description: Merge objects using descriptors
+  package_url: https://www.npmjs.com/merge-descriptors
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18485/default_3ec0464ac20686e95d789b41ae623e935100ada7.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: method-override
+  description: Override HTTP verbs
+  package_url: https://www.npmjs.com/method-override
+  version: 2.3.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16758/default_92482df1bcbe0d3a46cc1d597c9687a42da1cd04.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: methods
+  description: HTTP methods that node supports
+  package_url: https://www.npmjs.com/methods
+  version: 1.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17145/default_0ffbf6d9ee2940fe94be8424fd9afff068fff458.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: mime
+  description: A comprehensive library for mime-type mapping
+  package_url: https://www.npmjs.com/mime
+  version: 1.4.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16182/default_ac04a744873b460c4ef30a7450ed0c83223640ab.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/send/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: mime-db
+  description: Media Type Database
+  package_url: https://www.npmjs.com/mime-db
+  version: 1.34.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18701/default_803d9095ae52cd39a90bd905df9c2e4583f75904.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/mime-types/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: mime-types
+  description: The ultimate javascript content-type utility
+  package_url: https://www.npmjs.com/mime-types
+  version: 2.1.18
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16448/default_89ba91277e3434b03295bb11d22736632df1d04f.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/accepts/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: mkdirp
+  description: Recursively mkdir, like `mkdir -p`
+  package_url: https://www.npmjs.com/mkdirp
+  version: 0.5.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15881/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: mocha-lcov-reporter
+  description: LCOV reporter for Mocha
+  package_url: https://www.npmjs.com/mocha-lcov-reporter
+  version: 1.2.0
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16120/default_63a34654baee757196ddff2457bd1c9a0dfb7287.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: morgan
+  description: HTTP request logger middleware for node.js
+  package_url: https://www.npmjs.com/morgan
+  version: 1.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16097/default_c7b204838197013798409fa2b4dafce450edc7fb.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: Code Injection in morgan
+    cve_id: CVE-2019-5413
+    cve_url: https://github.com/advisories/GHSA-gwg9-rgvj-4h5j
+    detected_date: Aug 22
+    severity: critical
+    first_patched: 1.9.1
+- name: ms
+  description: Tiny millisecond conversion utility
+  package_url: https://www.npmjs.com/ms
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16565/default_536789d2630ed352dc721a1c915ab456b7660201.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: multiparty
+  description: Multipart/form-data parser which supports streaming
+  package_url: https://www.npmjs.com/multiparty
+  version: 4.1.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17690/default_e87994647b10b361432e73d1831e5982307760e2.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: nodeunit
+  description: Easy unit testing for node.js and the browser
+  package_url: https://www.npmjs.com/nodeunit
+  version: 0.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16216/default_180418c6fa6cdb8f7a3500f84a8fedb884fcb3fa.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bson/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bson/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: nyc
+  description: The Istanbul command line interface
+  package_url: https://www.npmjs.com/nyc
+  version: 10.3.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15837/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/bytes/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/bytes/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: on-finished
+  description: Execute a callback when a request closes
+  package_url: https://www.npmjs.com/on-finished
+  version: 2.3.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17498/default_e5adc22c59a44962e41dfaec51edeb42c083f2f4.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: parseurl
+  description: Parse a url with memoization
+  package_url: https://www.npmjs.com/parseurl
+  version: 1.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17347/default_b8b4be8bd54f9619446b80b2bf448c0891101f2a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: path-to-regexp
+  description: Express style path to RegExp utility
+  package_url: https://www.npmjs.com/path-to-regexp
+  version: 1.7.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16316/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: qs
+  description: A querystring parser that supports nesting and arrays
+  package_url: https://www.npmjs.com/qs
+  version: 6.5.2
+  license: BSD-3-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16125/default_def3edb85d7fbd20200a5cd7d0a1679e31bc8b3d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: qs vulnerable to Prototype Pollution
+    cve_id: CVE-2022-24999
+    cve_url: https://github.com/advisories/GHSA-hrpp-h998-j3pp
+    detected_date: Dec 7
+    severity: high
+    first_patched: 6.5.3
+- name: range-parser
+  description: Range header field string parser
+  package_url: https://www.npmjs.com/range-parser
+  version: 1.2.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18315/default_f1e168ebe0f124084b9a0acbe78bc5cdba7b4575.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: raw-body
+  description: Get and validate the raw body of a readable stream
+  package_url: https://www.npmjs.com/raw-body
+  version: 2.3.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17336/default_66bbb2a75a0234b1bfceaa99b8e82825fa7b8284.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: readable-stream
+  description: Streams3
+  package_url: https://www.npmjs.com/readable-stream
+  version: 2.2.7
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16322/default_97104dc50154593d2dde1d791400955934c9c715.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/raw-body/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: request
+  description: Simplified HTTP request client
+  package_url: https://www.npmjs.com/request
+  version: 2.87.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15823/default_5e5e8ac63beda29f31f1844df64d4b8247570a66.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/iconv-lite/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: Server-Side Request Forgery in Request
+    cve_id: CVE-2023-28155
+    cve_url: https://github.com/advisories/GHSA-p8p7-x288-28g6
+    detected_date: Mar 17
+    severity: moderate
+    first_patched: 
+- name: resolve-from
+  description: Resolve the path of a module like `require.resolve
+  package_url: https://www.npmjs.com/resolve-from
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17861/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/require_optional/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: rimraf
+  description: A deep deletion module for node
+  package_url: https://www.npmjs.com/rimraf
+  version: 2.6.2
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15807/default_db4a7791d2f1174547374b9b587bc10fec088a5a.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: safe-buffer
+  description: Safer Node.js Buffer API
+  package_url: https://www.npmjs.com/safe-buffer
+  version: 5.1.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16801/default_dc62f5e9b636403c2d19676924f5b6b881abcac8.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: safe-publish-latest
+  description: Ensure that when you `npm publish`
+  package_url: https://www.npmjs.com/safe-publish-latest
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17965/default_fc5f66cf44024e173fd07c415d4f30ca58b4cbad.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: seedrandom
+  description: Seeded random number generator for Javascript
+  package_url: https://www.npmjs.com/seedrandom
+  version: 2.4.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17815/default_78858facb60c08d15198eb69a6c7f48463f2c09f.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/etag/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/etag/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: semver
+  description: The semantic version parser used by npm
+  package_url: https://www.npmjs.com/semver
+  version: 5.5.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18809/default_dad3dc9dde4b82dc2a7bd32aa091165887abe57b.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/iconv-lite/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+  vulnerabilities:
+  - name: semver vulnerable to Regular Expression Denial of Service
+    cve_id: CVE-2022-25883
+    cve_url: https://github.com/advisories/GHSA-c2qf-rxjj-qqgw
+    detected_date: Jun 23
+    severity: moderate
+    first_patched: 5.7.2
+- name: send
+  description: Better streaming static file server with Range and conditional-GET
+    support
+  package_url: https://www.npmjs.com/send
+  version: 0.16.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17093/default_1dbf402c11ef653fcaedc84e608a244e30ebfb87.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: serve-static
+  description: Serve static files
+  package_url: https://www.npmjs.com/serve-static
+  version: 1.13.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16295/default_f04d39fc656c2e32ee1b9d3875a3002459aa3b69.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: should
+  description: Test framework agnostic BDD-style assertions
+  package_url: https://www.npmjs.com/should
+  version: 13.2.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15871/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/express/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/cookie-signature/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: sinon-chai
+  description: Extends Chai with assertions for the Sinon.JS mocking framework
+  package_url: https://www.npmjs.com/sinon-chai
+  version: 2.8.0
+  license: BSD-2-Clause,WTFPL
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15914/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/debug/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/debug/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: standard
+  description: JavaScript Standard Style
+  package_url: https://www.npmjs.com/standard
+  version: 3.7.3
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15878/default_7c39a83d4acd952df89b1ebfdb94c8646324fbf1.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/array-flatten/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/array-flatten/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: statuses
+  description: HTTP status utility
+  package_url: https://www.npmjs.com/statuses
+  version: 1.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/18232/default_006273ebad013729e0798e0376579caca9efaa4e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/node_modules/raw-body/node_modules/http-errors/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: tap
+  description: A Test-Anything-Protocol library for JavaScript
+  package_url: https://www.npmjs.com/tap
+  version: 7.1.0
+  license: ISC
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16027/default_af9df0bc9fa88191d2fe609204c5bd7599c1a797.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/inherits/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/inherits/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: tape
+  description: Tap-producing test harness for node and browsers
+  package_url: https://www.npmjs.com/tape
+  version: 4.9.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15856/default_6743ba96cf149a3c3c68a185199f9705d6eff80e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/node_modules/qs/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: type-is
+  description: Infer the content-type of a request
+  package_url: https://www.npmjs.com/type-is
+  version: 1.6.16
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17768/default_b760b4f955878b0055c02bde0608c2f01e7d4f4f.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/body-parser/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: uglify-js
+  description: JavaScript parser
+  package_url: https://www.npmjs.com/uglify-js
+  version: 2.8.29
+  license: BSD-2-Clause
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15900/default_1d65e37e65b7f80761374f0202776043277d505d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/mongodb-core/yarn.lock
+  detection_source: 2018/June/NodejsDemo/1/node_modules/ipaddr.js/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: utils-merge
+  description: Merge
+  package_url: https://www.npmjs.com/utils-merge
+  version: 1.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/17738/default_b527ab15473225ca7c2e9b197c9726e92ac97de8.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/package-lock.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/express/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: vue
+  description: Vue
+  package_url: https://www.npmjs.com/vue
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15844/default_b71c906aeda030a5e2f1fe40bf12a93be52404ab.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: AM
+  last_updated_on: 2019-06-07 20:59:26.000000000 Z
+- name: vue-loader
+  description: "&gt; webpack loader for Vue Single-File Components"
+  package_url: https://www.npmjs.com/vue-loader
+  version: 15.7.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15901/default_3af1504b6f77c55205ba630fe08c472f43b95f6e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: vue-template-compiler
+  description: Template compiler for Vue 2.0
+  package_url: https://www.npmjs.com/vue-template-compiler
+  version: 2.6.10
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15850/default_0b10af8ca19c215f781dc07442e75bdc831089d0.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package-lock.json
+  detection_source: AsteriodExplorer/UnitTests.AsteroidExplorer.JS/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: webpack-cli
+  description: CLI for webpack &amp; friends
+  package_url: https://www.npmjs.com/webpack-cli
+  version: 3.3.6
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/15826/default_14fd11531839d935f920b6d55bd6f3528c890ad7.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/package-lock.json
+  detection_source: AsteriodExplorer/package.json
+  last_updated_by: RK
+  last_updated_on: 2019-07-19 13:22:29.000000000 Z
+- name: xo
+  description: JavaScript linter with great defaults
+  package_url: https://www.npmjs.com/xo
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: npm Packages
+  image_url: https://img.stackshare.io/package/16016/default_261820f5687b4c88a3e8f95c71b5e8dccd34c1d7.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  detection_source: 2018/June/NodejsDemo/1/node_modules/resolve-from/package.json
+  last_updated_by: Rejan Karmacharya
+  last_updated_on: 2018-07-02 12:22:22.000000000 Z
+- name: Iesi.Collections
+  description: The System.Collections namespace in the .NET Framework provides a number
+    of collection types that are extremely useful for manipulating data in memory
+  package_url: https://www.nuget.org/Iesi.Collections
+  version: 4.0.1
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13107/default_baa6c1c3e725b18a803052f0d13efd0ca49e5d50.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/March/NServiceBus/TechDay_NSB_SampleCode/MessageReceiver/packages.config
+  detection_source: 2018/March/NServiceBus/TechDay_NSB_SampleCode/MessageReceiver/packages.config
+  last_updated_by: pair1
+  last_updated_on: 2018-04-27 21:11:30.000000000 Z
+- name: MSTest.TestFramework
+  description: This is MSTest V2, the evolution of Microsoft's Test Framework
+  package_url: https://www.nuget.org/MSTest.TestFramework
+  version: 1.1.11
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13142/default_a057bdad489be3cb053d372a68695da4ac94962d.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/June/CShartFeaturesOverview/packages.config
+  detection_source: 2017/June/CShartFeaturesOverview/packages.config
+  last_updated_by: AM
+  last_updated_on: 2018-03-09 01:17:36.000000000 Z
+- name: Microsoft.AspNet.OData
+  description: This package contains everything you need to create OData v4.0 endpoints
+    using ASP.NET Web API and to support OData query syntax for your web APIs
+  package_url: https://www.nuget.org/Microsoft.AspNet.OData
+  version: 7.2.2
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13355/default_24f30a6aa060dc11b9cd4dd1d52905db9245e978.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.AspNet.WebApi
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi
+  version: 5.2.4
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12923/default_039376cf26bae25623c106aea6185b89980a1e50.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.AspNet.WebApi.Client
+  description: This package adds support for formatting and content negotiation to
+    System.Net.Http
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Client
+  version: 5.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12870/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.AspNet.WebApi.Core
+  description: This package contains the core runtime assemblies for ASP.NET Web API
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.Core
+  version: 5.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12879/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.AspNet.WebApi.WebHost
+  description: This package contains everything you need to host ASP.NET Web API on
+    IIS
+  package_url: https://www.nuget.org/Microsoft.AspNet.WebApi.WebHost
+  version: 5.2.7
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12978/default_d871263d8798790404638a4d3692cc70b6389166.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.AspNetCore.App
+  description: Provides a default set of APIs for building an ASP.NET Core application
+  package_url: https://www.nuget.org/Microsoft.AspNetCore.App
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13005/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/AsteriodExplorer/AsteriodExplorer/AsteriodExplorer.csproj
+  detection_source: AsteriodExplorer/AsteriodExplorer/AsteriodExplorer.csproj
+  last_updated_by: AM
+  last_updated_on: 2019-06-07 20:59:26.000000000 Z
+- name: Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+  description: Replacement CodeDOM providers that use the new .NET Compiler Platform
+  package_url: https://www.nuget.org/Microsoft.CodeDom.Providers.DotNetCompilerPlatform
+  version: 2.0.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13106/default_048f7c1081704627a12b8b5e168cfdbc9f28fb33.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection
+  description: Default implementation of dependency injection for Microsoft.Extensions.DependencyInjection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12846/default_0f5233770e71818507f2339042e7e61bef904e70.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.Extensions.DependencyInjection.Abstractions
+  description: Abstractions for dependency injection
+  package_url: https://www.nuget.org/Microsoft.Extensions.DependencyInjection.Abstractions
+  version: 2.0.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12848/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.OData.Core
+  description: Classes to serialize, deserialize and validate OData JSON payloads
+  package_url: https://www.nuget.org/Microsoft.OData.Core
+  version: 7.6.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13296/default_1e1f93823dcbf467a805adfd578c74f8f54c6a4e.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.OData.Edm
+  description: Classes to represent, construct, parse, serialize and validate entity
+    data models
+  package_url: https://www.nuget.org/Microsoft.OData.Edm
+  version: 7.6.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13371/default_a8c5a9d917d12544e0591a4182335d690601b375.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: Microsoft.Spatial
+  description: Contains classes and methods that facilitate geography and geometry
+    spatial operations
+  package_url: https://www.nuget.org/Microsoft.Spatial
+  version: 7.6.1
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13328/default_4d1c8e39751da3e5e8bf7305f3f45ac90df4be6f.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: MongoDB.Driver
+  description: Official .NET driver for MongoDB
+  package_url: https://www.nuget.org/MongoDB.Driver
+  version: 2.4.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12892/default_f3b66025ae87cade251c16c8d9e166b0f1df9597.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2017/December/MongoChat/MongoChat.csproj
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+  vulnerabilities:
+  - name: MongoDB .NET/C# Driver vulnerable to Deserialization of Untrusted Data
+    cve_id: CVE-2022-48282
+    cve_url: https://github.com/advisories/GHSA-7j9m-j397-g4wx
+    detected_date: Mar 4
+    severity: high
+    first_patched: 2.19.0
+- name: NUnit3TestAdapter
+  description: A package including the NUnit 3 TestAdapter for Visual Studio 2012
+    onwards
+  package_url: https://www.nuget.org/NUnit3TestAdapter
+  version: 3.17.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13216/default_e23dabba1be2c69fbf5fc50bdc46cbffbe6ca2cb.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/CodingChallenge/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.csproj
+  detection_source: CodingChallenge/BestTimeToBuyAndSellStock/BestTimeToBuyAndSellStock.csproj
+  last_updated_by: Artem Machnev
+  last_updated_on: 2021-09-02 04:19:06.000000000 Z
+- name: Newtonsoft.Json
+  description: Json.NET is a popular high-performance JSON framework for .NET
+  package_url: https://www.nuget.org/Newtonsoft.Json
+  version: 10.0.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/nuget/image.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2018/April/Redis/RedisApp/RedisApp.csproj
+  last_updated_by: Phil McMillan
+  last_updated_on: 2018-04-30 12:34:34.000000000 Z
+  vulnerabilities:
+  - name: 'Duplicate Advisory: Improper Handling of Exceptional Conditions in Newtonsoft.Json'
+    cve_id: 
+    cve_url: https://github.com/advisories/GHSA-8rfx-6mr3-5jh3
+    detected_date: Jan 4
+    severity: high
+    first_patched: 13.0.1
+  - name: Improper Handling of Exceptional Conditions in Newtonsoft.Json
+    cve_id: CVE-2024-21907
+    cve_url: https://github.com/advisories/GHSA-5crp-9r3c-p9vr
+    detected_date: Jun 23
+    severity: high
+    first_patched: 13.0.1
+- name: StackExchange.Redis
+  description: High performance Redis client
+  package_url: https://www.nuget.org/StackExchange.Redis
+  version: 1.2.6
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12896/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2018/April/Redis/RedisApp/RedisApp.csproj
+  detection_source: 2018/April/Redis/RedisApp/RedisApp.csproj
+  last_updated_by: Phil McMillan
+  last_updated_on: 2018-04-30 12:34:34.000000000 Z
+- name: System.Collections
+  description: Provides classes that define generic collections
+  package_url: https://www.nuget.org/System.Collections
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12855/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Collections.Concurrent
+  description: Provides several thread-safe collection classes that should be used
+    in place of the corresponding types in the System.Collections.NonGeneric and System.Collections
+    packages when...
+  package_url: https://www.nuget.org/System.Collections.Concurrent
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12925/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.ComponentModel
+  description: Provides interfaces for the editing and change tracking of objects
+    used as data sources
+  package_url: https://www.nuget.org/System.ComponentModel
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12963/default_bd8397841d0aa5de035298a9130ee2dc9d9b0ece.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Data.SqlClient
+  description: Provides the data provider for SQL Server
+  package_url: https://www.nuget.org/System.Data.SqlClient
+  version: 4.4.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12863/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: TennisAwesome/TennisAwesome.Web/TennisAwesome.Web.csproj
+  last_updated_by: Artem Machnev
+  last_updated_on: 2018-06-29 19:09:13.000000000 Z
+  vulnerabilities:
+  - name: Microsoft.Data.SqlClient and System.Data.SqlClient vulnerable to SQL Data
+      Provider Security Feature Bypass
+    cve_id: CVE-2024-0056
+    cve_url: https://github.com/advisories/GHSA-98g6-xh36-x2p7
+    detected_date: Jan 17
+    severity: high
+    first_patched: 4.8.6
+  - name: ".NET Information Disclosure Vulnerability"
+    cve_id: CVE-2022-41064
+    cve_url: https://github.com/advisories/GHSA-8g2p-5pqh-5jmc
+    detected_date: Nov 9
+    severity: moderate
+    first_patched: 4.8.5
+- name: System.Diagnostics.Debug
+  description: Provides classes and attributes that allows basic interaction with
+    a debugger
+  package_url: https://www.nuget.org/System.Diagnostics.Debug
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12887/default_e43fb8cd51d87352a1197706afa527de5c3baecd.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Globalization
+  description: Provides classes that define culture-related information
+  package_url: https://www.nuget.org/System.Globalization
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12895/default_4e8402857d2ce7356903ee7422d9b4a0f23cc137.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Linq
+  description: Provides classes and interfaces that supports queries that use Language-Integrated
+    Query
+  package_url: https://www.nuget.org/System.Linq
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12857/default_ccf90b566c21ad9eaa59733f297e535ea39fb3b4.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Linq.Expressions
+  description: Provides classes, interfaces and enumerations that enable language-level
+    code expressions to be represented as objects in the form of expression trees
+  package_url: https://www.nuget.org/System.Linq.Expressions
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12924/default_2aeaea161c566d1abfbaf3f2206fda12b1eea9cd.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Reflection
+  description: Provides types that retrieve information about assemblies, modules,
+    members, parameters, and other entities in managed code by examining their metadata
+  package_url: https://www.nuget.org/System.Reflection
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12874/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Resources.ResourceManager
+  description: Provides classes and attributes that allow developers to create, store,
+    and manage various culture-specific resources used in an application
+  package_url: https://www.nuget.org/System.Resources.ResourceManager
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12898/default_1763b424d3c06c730dd020813f1a1a6ffb953bc2.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Runtime.Extensions
+  description: Provides commonly-used classes for performing mathematical functions,
+    conversions, string comparisons and querying environment information
+  package_url: https://www.nuget.org/System.Runtime.Extensions
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12872/default_1763b424d3c06c730dd020813f1a1a6ffb953bc2.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Threading
+  description: Provides the fundamental synchronization primitives, including System.Threading.Monitor
+    and System.Threading.Mutex, that are required when writing asynchronous code
+  package_url: https://www.nuget.org/System.Threading
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12861/default_3ee9e3bfd65cbae9db28ab78b712a58bcd81af27.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: System.Threading.Tasks
+  description: Provides types that simplify the work of writing concurrent and asynchronous
+    code
+  package_url: https://www.nuget.org/System.Threading.Tasks
+  version: 4.3.0
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12899/default_4b18ad6ce0b5b2bd1dc822207c362ce8e0f74098.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/obj/project.assets.json
+  detection_source: 2019/April/MUTDataService/MUTDataService.UnitTests/packages.config
+  last_updated_by: JQ
+  last_updated_on: 2019-11-08 21:03:34.000000000 Z
+- name: bootstrap
+  description: The most popular front-end framework for developing responsive
+  package_url: http://bower.io/bootstrap
+  version: 3.3.7
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/bower.json
+  detection_source: 2017/December/MongoChat/bower.json
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: jquery-validation
+  description: Form validation made easy
+  package_url: http://bower.io/jquery-validation
+  version: 1.14.0
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/bower.json
+  detection_source: 2017/December/MongoChat/bower.json
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
+- name: jquery-validation-unobtrusive
+  description: Add-on to jQuery Validation to enable unobtrusive validation options
+    in data-* attributes
+  package_url: http://bower.io/jquery-validation-unobtrusive
+  version: 3.2.6
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/package/bower/image.png
+  detection_source_url: https://github.com/ARPC/to-techdays/blob/master/2017/December/MongoChat/bower.json
+  detection_source: 2017/December/MongoChat/bower.json
+  last_updated_by: Art Machnev
+  last_updated_on: 2018-02-16 23:29:45.000000000 Z
